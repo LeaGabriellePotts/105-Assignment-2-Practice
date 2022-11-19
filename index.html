@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Online Store</title>
+</head>
+<body>
+    <header>
+        <h1>My Amazon Online Store</h1>
+    </header>
+    <main>
+        <h2>Add a new transaction</h2>
+        <div>
+            <input type="text" placeholder="Products's name" id="txtProduct">
+            <input type="number" placeholder="Add the price" id="txtPrice">
+
+            <!--If you wanted to put buttons for small medium and large (S,M,L under product name and price so someone could select the size.Selecting name - "size" for all three makes it so you can only select one size)-->
+            <!-- <div>
+                <label>S</label>
+                <input type="radio" name="size" id="s">
+                <label>M</label>
+                <input type="radio" name="size" id="m">
+                <label>L</label>
+                <input type="radio" name="size" id="l">
+            </div> -->
+
+            <button onclick ="register();">Add product</button>
+        </div>
+        <h2>Products in the cart<sup id="productsInCart">1</sup></h2>
+        <table>
+            <thead>
+                <th>Id</th>
+                <th>Product</th>
+                <th>Price</th>
+            </thead>
+            <tbody id="productsTable">
+
+            </tbody>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    font-family: arial;
+}
+table{
+    width: 80%;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+}
+#productsInCart{
+    background-color: rgb(247, 142, 142);
+    border-radius: 50%;
+    font-size: 14px;
+    width: 20px;
+    text-align: center;
+}
